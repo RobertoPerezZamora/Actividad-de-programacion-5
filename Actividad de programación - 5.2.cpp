@@ -25,7 +25,14 @@ using namespace std;
 // Funcion principal
 int main()
 {
-
+            //Mostrar valores todo el tiempo
+        cout << "=============================================" << endl;
+        cout << "Valores del arreglo" << endl;
+        for(int i=0 ;i<pos; i++){
+            cout << ar[i] << endl;
+        }
+        cout << "=============================================" << endl;
+    
     bool ciclo = true; //bool para el ciclo
     int ar[10]; // Arreglo de 10 espacios
     int op;     // Opciones del menu
